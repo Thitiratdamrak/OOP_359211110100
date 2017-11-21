@@ -8,8 +8,8 @@ public class HelloWorld {
         // Add Data
         System.out.println("Thitirat damrak");
         System.out.println("Information ");
-        System.out.println("Manaagement");
-        System.out.println("Ruv");
+        System.out.println("Manaagement,RMUST");
+
 
 
     }//main
