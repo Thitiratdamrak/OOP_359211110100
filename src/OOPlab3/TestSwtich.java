@@ -1,25 +1,21 @@
-package ooplab3;
-
+package OOPlab3;
+import java.util.Scanner;
 public class TestSwtich {
     public static void main(String[] args) {
-        // if
-        int x = 10, y = 20;
-        if (x > y)
-            System.out.println("x less than y");
-        System.out.println("OOP");
-//  if-else
-        x = 30;
-        if (x < y)
-            System.out.println("x less than y");
-        else
-            System.out.println("x more than y");
-//  if-else-if
-        if (x < 30)
-            System.out.println("x less than y");
-        else if (x < 30)
-            System.out.println("x more than 30");
-        else
-            System.out.println("x equal 30");
+        Scanner scanner = new Scanner(System.in);
+//        switch-case
+        int select;
+        System.out.print("Please enter number 1-3");
+        select = scanner.nextInt();
+        switch (select){
+            case 1:  System.out.print("Your entered 1");break;
+            case 2:  System.out.print("Your entered 2");break;
+            case 3:  System.out.print("Your entered 3");break;
+            default:  System.out.print("Number 1-3 only");
+
+
+
+        }//swicth
 
     }//main
 }//class
