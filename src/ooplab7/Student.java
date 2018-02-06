@@ -14,7 +14,7 @@ public class Student {
     private String gender;
     //Constructor
     //Default Constructor
-    public Student(){}
+    public Student(String boy_saiyai, String male, String s, int i, String std0001, String s1){}
     //Constructor by own
     public Student(String id,String n,String a,String g){
         //assign data to properties

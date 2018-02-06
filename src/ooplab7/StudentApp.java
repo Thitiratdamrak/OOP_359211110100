@@ -6,7 +6,7 @@ public class StudentApp {
     public static void main(String[] args) {
         //create object as Student
         //default constructor
-        Student s1 = new Student();
+        Student s1 = new Student("Boy Saiyai", "Male", "20/12/1990", 20, "STD0001", "IS:MT");
         s1.setId("001");
         s1.setName("Boy Saiyai");
         s1.setAddress("109 M.2 T.Thamyai A.Thungsong");
@@ -25,7 +25,7 @@ public class StudentApp {
         s2.setName("Girl Shongkla");
         System.out.println(s2.toString());
         //user assign data to object
-        Student s3 = new Student();
+        Student s3 = new Student("Boy Saiyai", "Male", "20/12/1990", 20, "STD0001", "IS:MT");
         s3 = inputData(s3);
         System.out.println(s3.toString());
         System.out.println(s3.group);
