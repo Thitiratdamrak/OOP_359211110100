@@ -1,10 +1,5 @@
 package ooplab8;
 
-import ooplab7.Student;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class PersonApp {
     public static void main(String[] args) {
         //SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
