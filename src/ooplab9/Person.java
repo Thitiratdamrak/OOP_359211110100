@@ -1,13 +1,12 @@
 package ooplab9;
 
-
 public class Person {
     private String personID;
     private String name;
     private Address address;
     private Job job;
 
-    public Person(String personID, String name, Address address, Job job) {
+    public Person(String personID, String name,Address address,Job Job) {
         this.personID = personID;
         this.name = name;
         this.address = address;
@@ -19,13 +18,17 @@ public class Person {
         return "Person{" +
                 "personID='" + personID + '\'' +
                 ", name='" + name + '\'' +
-                ", address=" + address +
+                ", Address=" + address +
                 ", job=" + job +
                 '}';
     }
 
     public String getPersonID() {
         return personID;
+    }
+
+    public void setPersonID(String personID) {
+        this.personID = personID;
     }
 
     public String getName() {
