@@ -24,6 +24,10 @@ public class Student {
         this.address = a;
         this.gender = g;
     }//Student
+
+    public Student() {
+
+    }
     //getter and setter methods
 
 
